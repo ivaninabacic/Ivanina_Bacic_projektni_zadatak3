@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@font-face {
+    font-family: "IvaninaBacic", sans-serif;
+    src:url("IvaninaBacic.ttf"); }
+
+div.a {text-align: center; align-content: center;
+direction: center; }
+
+p{ color: #60057d;
+font-family: "Georgia", serif;
+font-size: 16px;
+line-height: 24px;
+text-align: center; align-content:center;
+	padding: 10px;}
+
+.paragraf_1 {text-align: center; 
+    align-content: center; 
+	color: black; background-color: #eec7f7;
+	padding: 20px; 
+	margin: 20px; 
+	width: 40%;
+	box-shadow: 5px 6px #888888;
+	position: relative;
+	align-self: center;
+	top: 50%;
+left: 28%;}
+
+.paragraf_2 {text-align: center; 
+    align-content: center; 
+	color: black; background-color: #eec7f7;
+	padding: 40px; 
+	margin: 40px; 
+	width: 60%;
+	box-shadow: 5px 6px #888888;
+	position: relative;
+	align-self: center;
+	top: 50%;
+left: 15%;}
+
+h1 {font-family: "IvaninaBacic", sans-serif;
+	font-size: 60px;
+	color: #d07ee2; 
+	text-align: center;}
+
+h2 {font-family: "Lucida Handwriting", Cursive;
+	font-size: 55px;
+	color: #d07ee2; 
+	text-align: center;
+    margin-top: 50px;}
+
+
+h3 {font-family: "Lucida Handwriting", Cursive;
+	font-size: 30px;
+	color: #eec7f7; 
+	text-decoration:underline;
+	text-align: center;}
+	
+h4 {font-family: "Lucida Handwriting", Cursive;
+	font-size: 35px;
+	color: #d07ee2; 
+	text-align: center;
+    margin-top: 50px;}
+	
+h5 {font-family: "Georgia", Serif;
+font-size: 16px;color: #d07ee2; 
+	text-align: center;
+    margin-top: 50px;}
+
+.pozadina1 {
+	background-image: url("slike/pozadina1.jpg");
+	background-size: 1500px;}
+
+.pozadina2 {
+	background-image: url("slike/pozadina2.jpg");
+	background-size: 1500px;}
+
+.pozadina3 {
+	background-image: url("slike/pozadina3.jpg");
+	background-size: 490px;}
+
+.pozadina4 {
+	background-image: url("slike/pozadina4.jpg");
+	background-size: 1482px;}
+	
+.pozadina5 {
+	background-image: url("slike/pozadina5.jpg");
+	background-size: 2830px;}
+
+video {margin-top: 20px;}
+
+img { height: 200px;
+      align-content: center;
+	  margin-top: 20px;}
+	  
+	  .polaroid a {
+        background: #ffffff;
+        display: inline-block;
+        margin: 50px 20px 30px;
+        padding: 15px 15px 25px;
+        text-align: center;
+        text-decoration: none;
+
+        position: relative;}
+		
+      .polaroid a:after {
+        color: #333;
+        font-size: 25px;
+        content: attr(title);
+        position: relative;
+        top: 15px;}
+		
+      .polaroid img {
+        display: block;
+        width: 150px;}
+		
+      .polaroid a:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+        z-index: 10;
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+        -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .7);}
